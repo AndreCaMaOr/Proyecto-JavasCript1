@@ -55,8 +55,8 @@ function getFetch() {
     // }).catch(error => {
     //     console.log(error)
     //     return alerta4()
-    // });
-});
+    });
+
 }
 
 getFetch()

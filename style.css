@@ -43,7 +43,10 @@ h2 {
   display: block;
   border-top: 10%;
   text-align: center;
-  color: white;
+  color: black;
+  border: solid 4px yellow; 
+  width: 25%;
+  background-color: greenyellow;
 
 }
 
@@ -52,7 +55,10 @@ h2 {
   border: solid 4px whitesmoke;
   text-align: center;
   border-collapse: collapse;
+  margin-left: 30px;
+  width: 95%;
 }
+
 
 thead {
   background-color: green;
@@ -72,8 +78,6 @@ tr:hover td {
   margin-left:15px;
   font-size: 20px;
   margin-top: 1px;
-  
- 
   border-color: #6c44ad;
   border-radius: 0;
   color: #8e44ad;
@@ -94,7 +98,7 @@ tr:hover td {
   transform: translateX(-50%);
   width: 0;
   height: 100%;
-  background: #8e44ad;
+  background: green;
   z-index: -1;
   -webkit-transition: width 150ms ease-in-out;
   transition: width 150ms ease-in-out;
