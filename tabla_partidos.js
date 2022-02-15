@@ -62,6 +62,16 @@ function getFetch() {
 getFetch()
 
 
+// let premierLigue =document.getElementById ("buscarLi");
+
+// premierLigue.addEventListener("click",()=> {
+//     const url2="https://api.football-data.org/v2/competitions/2021/matches"
+// getFetch(url2)   
+// })
+
+
+
+
 
 function quitarSpinner() {
     let spinner = document.getElementById("spin")
