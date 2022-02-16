@@ -33,7 +33,7 @@
    
  <h2> Por mejorar</h2>
    <ul><li> Añadir otras ligas
-     <li> colocar noticas en tiempo real.
+     <li> colocar noticias en tiempo real.
        <li> mejorar el diseño.
       
     
