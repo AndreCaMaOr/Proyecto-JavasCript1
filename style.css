@@ -35,6 +35,17 @@ h2 {
 
 }
 
+.input-group{
+  box-sizing: 280px;
+  width:700%;
+  height: 80px;
+  border: #fff solid;
+  margin-left: 100px;
+  margin-right: 30px;
+}
+
+
+
 .btn-group {
   /* text-align: center; */
   /* margin-left: 10%; */
@@ -49,6 +60,10 @@ h2 {
   background-color: greenyellow;
 
 }
+
+
+
+
 
 .table {
   background-color: aliceblue;
@@ -163,4 +178,10 @@ tr:hover td {
 /*mensaje alerta*/
 .alert{
   margin-left: 80px;
+}
+
+.botAlerta{
+  width: 25%;
+  text-align: center;
+  margin-left: 400px;
 }

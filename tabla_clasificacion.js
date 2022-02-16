@@ -91,7 +91,7 @@ function posic(equipos) {
         let DG = document.createElement("p")
         DG.innerHTML = equipos[i].goalDifference
 
-        let todos = [pos, club, image, Pjugados, won, draw, lost, puntos, GF, Gc, DG]
+        let todos = [pos, club, image, Pjugados, won, draw, lost, GF, Gc, DG, puntos]
         for (let m = 0; m < todos.length; m++) {
             const td = document.createElement("td")
             td.append(todos[m])

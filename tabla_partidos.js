@@ -16,8 +16,8 @@ quitarAlerta2()
 quitarAlerta3()
 quitarAlerta4()
 
-function getFetch() {
-    const url = "https://api.football-data.org/v2/competitions/2014/matches"
+function getFetch(url) {
+    // const url = "https://api.football-data.org/v2/competitions/2014/matches"
     fetch(url, {
         method: "GET",
         headers: {
@@ -54,21 +54,27 @@ function getFetch() {
 
     // }).catch(error => {
     //     console.log(error)
-    //     return alerta4()
-    });
-
+    //    alert("Ha ocurrido un error")
+    // 
+});
 }
 
-getFetch()
+getFetch("https://api.football-data.org/v2/competitions/2014/matches")
 
 
-// let premierLigue =document.getElementById ("buscarLi");
+let premierLeague = document.getElementById("buscar1");
 
-// premierLigue.addEventListener("click",()=> {
-//     const url2="https://api.football-data.org/v2/competitions/2021/matches"
-// getFetch(url2)   
-// })
+premierLeague.addEventListener("click",()=> {
+    const url2="https://api.football-data.org/v2/competitions/2021/matches"
+getFetch(url2)   
+})
 
+let LigaFrancesa = document.getElementById("buscar2");
+
+LigaFrancesa.addEventListener("click",()=> {
+    const url3="https://api.football-data.org/v2/competitions/2015/matches"
+getFetch(url3)   
+})
 
 
 

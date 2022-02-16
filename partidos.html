@@ -45,15 +45,21 @@
     <div class="block blue"></div>
   </div>
 
-  <div class="input-group flex-nowrap container justify-content-center">
-    <input type="text" id="nuevaTab" class="form-control" placeholder="escribe el nombre de tu equipo"
-      aria-label="Username" aria-describedby="addon-wrapping">
-    <div><button type="button" class="btn btn-primary" id="buscar">Buscar</button></div>
-    <!-- <div><button type="button" class="btn btn-primary" id="buscarLI">Premier Ligue</button></div> -->
+  <!-- <div class="input-group flex-nowrap container justify-content-center">
+   <div><input type="text" id="nuevaTab" class="form-control mb-3" placeholder="escribe el nombre de tu equipo"
+      aria-label="Username" aria-describedby="addon-wrapping"></div> 
+    <div><button type="button" class="btn btn-primary" id="buscar">Liga Española</button></div>
+    <div><button type="button" class="btn btn-primary" id="buscar1">Premier League</button></div>
+    <div><button type="button" class="btn btn-primary" id="buscar2">Liga Francesa</button></div>
     <div><button type="reset" class="reset" id="reset">Reset</button> </div>
-  </div><br>
+  </div><br> -->
 
-
+  <button id="buscar3">Liga Española</button>
+  <button id="buscar1">Premier League</button>
+  <button id="buscar2">Liga Francesa</button>
+<input type="text" id="nuevaTab" placeholder="escribe el nombre de tu equipo">
+<button id="buscar">Buscar</button>
+<button type="reset" class="reset" id="reset">Reset</button>
 
 
   <div class="btn-group container table-responsive" role="group" aria-label="Basic radio toggle button group">
@@ -90,13 +96,13 @@
       </thead>
       <tbody id="cuerpoTabla">
        
-          <div class="alert alert-primary col-auto" role="alert" id="alerta1">
+          <div class="alert alert-primary botAlerta" role="alert" id="alerta1">
             Escribe el nombre de tu equipo
           </div>
-          <div class="alert alert-primary col-auto" role="alert" id="alerta2">
+          <div class="alert alert-primary botAlerta" role="alert" id="alerta2">
             Ese equipo no juega en esta liga
           </div>
-          <div class="alert alert-primary col-auto" role="alert" id="alerta3">
+          <div class="alert alert-primary botAlerta" role="alert" id="alerta3">
             Introduce letras
           </div>
        
