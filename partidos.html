@@ -53,14 +53,14 @@
     <div><button type="button" class="btn btn-primary" id="buscar2">Liga Francesa</button></div>
     <div><button type="reset" class="reset" id="reset">Reset</button> </div>
   </div><br> -->
-
-  <button id="buscar3">Liga Española</button>
-  <button id="buscar1">Premier League</button>
-  <button id="buscar2">Liga Francesa</button>
-<input type="text" id="nuevaTab" placeholder="escribe el nombre de tu equipo">
-<button id="buscar">Buscar</button>
-<button type="reset" class="reset" id="reset">Reset</button>
-
+  <div class="padreB">
+    <div> <button id="buscar3" class="botonL1">Liga Española</button></div>
+    <div><button id="buscar1" class="botonL">Premier League</button></div>
+    <div> <button id="buscar2" class="botonL">Liga Francesa</button></div>
+    <div> <input type="text" id="nuevaTab" class="inputE" placeholder="escribe el nombre de tu equipo"></div>
+    <div><button id="buscar" class="botonL">Buscar</button></div>
+    <div><button type="reset" class="reset" id="reset">Reset</button></div>
+  </div>
 
   <div class="btn-group container table-responsive" role="group" aria-label="Basic radio toggle button group">
     <input type="radio" name="btnradio" value="Ganados" class="circulito" autocomplete="off"> GANADOS
@@ -95,17 +95,17 @@
         </tr>
       </thead>
       <tbody id="cuerpoTabla">
-       
-          <div class="alert alert-primary botAlerta" role="alert" id="alerta1">
-            Escribe el nombre de tu equipo
-          </div>
-          <div class="alert alert-primary botAlerta" role="alert" id="alerta2">
-            Ese equipo no juega en esta liga
-          </div>
-          <div class="alert alert-primary botAlerta" role="alert" id="alerta3">
-            Introduce letras
-          </div>
-       
+
+        <div class="alert alert-primary botAlerta" role="alert" id="alerta1">
+          Escribe el nombre de tu equipo
+        </div>
+        <div class="alert alert-primary botAlerta" role="alert" id="alerta2">
+          Ese equipo no juega en esta liga
+        </div>
+        <div class="alert alert-primary botAlerta" role="alert" id="alerta3">
+          Introduce letras
+        </div>
+
       </tbody>
 
     </table>

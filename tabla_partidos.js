@@ -62,6 +62,7 @@ function getFetch(url) {
 getFetch("https://api.football-data.org/v2/competitions/2014/matches")
 
 
+
 let premierLeague = document.getElementById("buscar1");
 
 premierLeague.addEventListener("click",()=> {

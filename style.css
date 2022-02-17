@@ -185,3 +185,29 @@ tr:hover td {
   text-align: center;
   margin-left: 400px;
 }
+
+/*Botones ligas*/
+.padreB{
+display: flex;
+justify-content:space-between;
+width: 50px ;
+margin-left: 80px;
+
+}
+
+/* 
+.botonL1{
+  margin-left: 80px;
+  width: 100px;
+}
+
+.botonL{
+  margin-left: 10px;
+  width: 100px;
+  
+}
+
+.inputE{
+  width: 250px;
+  height:50px;
+} */
